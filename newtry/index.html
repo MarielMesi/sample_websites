@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DarkEL</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <nav class="main-nav">
+            <ul class="ul_first">
+                <li id="logo">
+                    <a href="#">EL</a>
+                </li>
+            </ul>
+            <ul class="ul_second">
+                <li id="border"><a href="#summer">Home</a></li>
+                <li><a href="#Binance API">Binance API</a></li>
+                <li><a href="#Chart visualization">Chart visualization</a></li>
+                <li><a href="#fetch">Fetch?</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <section id="summer" class="summer">
+                <div class="image">
+                    <img src="assets/demoimage.jpg">
+                </div>
+                <div class="content">
+                    <h3>Story Line</h3>
+                    <h1>Summer</h1>
+                    <p>
+                        This is a dummy text
+                    </p>
+                    <a href="#" class="btn">Log in/ Register????</a>
+                </div>
+            </section>
+            <section id="Binance API" class="summer">
+                <div class="image sc--image">
+                    <img src="assets/demoimage1.jpg">
+                </div>
+                <div class="content">
+                    <h3>Story Line</h3>
+                    <h1>Binance API</h1>
+                    <p>
+                        This is a dummy text
+                    </p>
+                    <a href="#" class="btn">Log in/ Register????</a>
+                </div>
+            </section>
+            <section id="Chart visualization" class="summer">
+                <div class="image th--image">
+                    <img src="assets/demoimage2.jpg">
+                </div>
+                <div class="content">
+                    <h3>Story Line</h3>
+                    <h1>Chart visualization</h1>
+                    <p>
+                        This is a dummy text
+                    </p>
+                    <a href="#" class="btn">Log in/ Register????</a>
+                </div>
+            </section>
+            <section id="fetch" class="summer">
+                <div class="image fo--image">
+                    <img src="assets/demoimage3.jpg">
+                </div>
+                <div class="content">
+                    <h3>Story Line</h3>
+                    <h1>Fetch?</h1>
+                    <p>
+                        This is a dummy text
+                    </p>
+                    <a href="#" class="btn">Log in/ Register????</a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var item = document.getElementById("main-container");
+        window.addEventListener("wheel", function (e) {
+            if (e.deltaY > 0) item.scrollLeft += 100;
+            else item.scrollLeft -= 100;
+        });
+    </script>
+</body>
+</html>
